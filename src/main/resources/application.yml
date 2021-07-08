@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: '@profileActive@'
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force-response: true
+  
